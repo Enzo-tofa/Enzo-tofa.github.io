@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <title>Jeu de combat au tour par tour</title>
+  <link rel="icon" type="image/jpg" sizes="16x16" href="img/favicon.jpg">
+</head>
+
+<body>
+
+
+  <div id="jeu">
+
+    <header>
+      <h1>Jeu skyrim en tour par tour sur navigateur</br> Dovakhin versus Dragon</h1>
+    </header>
+
+    <div id="map"></div>
+
+    <div id="joueur1" class="joueurClass">
+      <div id="info1">
+        <h2>Dragon</h2>
+        <p><img src="img/perso1_dragon.png"></img>
+        <p>Santé : </p><span id="recapSante1" class="recapClass"></span>
+        </br>
+        <p>Dégats pouvoir : </p><span id="recapArme1" class="recapClass"></span>
+        </br>
+        <p>Posture: </p><span id="recapPosture1" class="recapClass"></span>
+        </br>
+      </div>
+    </div>
+
+    <div id="joueur2" class="joueurClass">
+      <div id="info2" class="infoClass">
+        <h2>Dovakhiin</h2>
+        <p><img src="img/perso2_dovakhiin.png"></img>
+        <p>Santé : </p><span id="recapSante2" class="recapClass"></span>
+        </br>
+        <p>Dégats pouvoir : </p><span id="recapArme2" class="recapClass"></span>
+        </br>
+        <p>Posture: </p><span id="recapPosture2" class="recapClass"></span>
+        </br>
+      </div>
+    </div>
+
+    <div id="joueur1Boutons" class="boutonClass">
+      <p><img src="img/perso1_dragon_petit.png"></img>
+        <br>
+        <button id="attaqueJoueur1" type="button" class="attaque"><img src="img/epee.png" alt="Icone d'attaque"
+            style="width: 50px;" /></button>
+        <button id="defenseJoueur1" type="button" class="defense"><img src="img/bouclier.png" alt="Icone de défense"
+            style="width: 50px;" /></button>
+    </div>
+
+    <div id="joueur2Boutons" class="boutonClass">
+      <p><img src="img/perso2_dovakhiin_petit.png"></img>
+        <br>
+        <button id="attaqueJoueur2" type="button" class="attaque"><img src="img/epee.png" alt="Icone d'attaque"
+            style="width: 50px;" /></button>
+        <button id="defenseJoueur2" type="button" class="defense"><img src="img/bouclier.png" alt="Icone de défense"
+            style="width: 50px;" /></button>
+    </div>
+
+  </div>
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/arme.js"></script>
+  <script src="js/perso.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/combat.js"></script>
+
+
+</body>
+
+</html>

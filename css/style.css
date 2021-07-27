@@ -1,0 +1,196 @@
+body {
+  background-image: url('../img/background.png');
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1 {
+  text-align: center;
+  width: auto;
+  height: auto;
+  font-size: 1.2em;
+  vertical-align: middle;
+  z-index: 5;
+  color: white;
+}
+
+#map {
+  width: 500px;
+  margin: auto;
+  position: relative;
+  z-index: 3;
+}
+
+.casevideClass {
+  box-sizing: border-box;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px black solid;
+  float: left;
+  background: white;
+  z-index: 1;
+}
+
+.blockClass {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px black solid;
+  float: left;
+  background-image: url('../img/bloc.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.arme1Class {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px black solid;
+  float: left;
+  background-image: url('../img/arme1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.arme2Class {
+  box-sizing: border-box;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px black solid;
+  float: left;
+  background-image: url('../img/arme2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.arme3Class {
+  box-sizing: border-box;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px black solid;
+  float: left;
+  background-image: url('../img/arme3.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.arme4Class {
+  box-sizing: border-box;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px black solid;
+  float: left;
+  background-image: url('../img/arme4.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#perso1 {
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+}
+
+#perso2 {
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+}
+
+#joueur1 {
+  left: 5px;
+  background-image: url('../img/drago.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#joueur2 {
+  right: 5px;
+  background-image: url('../img/dova.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.joueurClass {
+  z-index: 4;
+  width: 20%;
+  height: 50%;
+  margin: 10px;
+  padding: 90px;
+  vertical-align: middle;
+  position: absolute;
+  bottom: 5px;
+}
+
+.recapClass {
+  font-size: 0.8em;
+  color: black;
+  float: left;
+  z-index: 4;
+  position: relative;
+}
+
+
+.boutonClass {
+  display: none;
+  z-index: 4;
+  width: 10%;
+  height: 20%;
+  margin: 10px;
+  padding: 20px;
+  vertical-align: middle;
+  position: absolute;
+  bottom: 15px;
+  background-image: url('../img/parchemin.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#joueur1Boutons {
+  left: 35em;
+}
+
+#joueur2Boutons {
+  right: 35em;
+}
+
+.infoClass{
+  margin : 30px;
+}
+
+.gameOver{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: none;
+}
+
+.gameOver h2{
+  font-size: 15px;
+  color: red;
+}
