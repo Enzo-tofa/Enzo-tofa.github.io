@@ -10,16 +10,11 @@
 </head>
 
 <body>
-
-
   <div id="jeu">
-
     <header>
       <h1>Jeu skyrim en tour par tour sur navigateur</br> Dovakhin versus Dragon</h1>
     </header>
-
     <div id="map"></div>
-
     <div id="joueur1" class="joueurClass">
       <div id="info1">
         <h2>Dragon</h2>
@@ -30,9 +25,13 @@
         </br>
         <p>Posture: </p><span id="recapPosture1" class="recapClass"></span>
         </br>
+        <div id="joueur1Boutons" class="boutonClass" style="width: auto; ">
+          <img id="attaqueJoueur1" src="img/epee.png" alt="Icone d'attaque" style="width: 50px; margin: 50px; " />
+          <img id="defenseJoueur1" src="img/bouclier.png" alt="Icone de défense" style="width: 50px; margin: 50px;" />
+      </div>
+  
       </div>
     </div>
-
     <div id="joueur2" class="joueurClass">
       <div id="info2" class="infoClass">
         <h2>Dovakhiin</h2>
@@ -43,25 +42,11 @@
         </br>
         <p>Posture: </p><span id="recapPosture2" class="recapClass"></span>
         </br>
+        <div id="joueur2Boutons" class="boutonClass" style="width: auto;">
+          <img id="attaqueJoueur2" src="img/epee.png" alt="Icone d'attaque" style="width: 50px; margin: 30px;" />
+          <img id="defenseJoueur2" src="img/bouclier.png" alt="Icone de défense" style="width: 50px; margin: 30px;" />
+        </div>
       </div>
-    </div>
-
-    <div id="joueur1Boutons" class="boutonClass">
-      <p><img src="img/perso1_dragon_petit.png"></img>
-        <br>
-        <button id="attaqueJoueur1" type="button" class="attaque"><img src="img/epee.png" alt="Icone d'attaque"
-            style="width: 50px;" /></button>
-        <button id="defenseJoueur1" type="button" class="defense"><img src="img/bouclier.png" alt="Icone de défense"
-            style="width: 50px;" /></button>
-    </div>
-
-    <div id="joueur2Boutons" class="boutonClass">
-      <p><img src="img/perso2_dovakhiin_petit.png"></img>
-        <br>
-        <button id="attaqueJoueur2" type="button" class="attaque"><img src="img/epee.png" alt="Icone d'attaque"
-            style="width: 50px;" /></button>
-        <button id="defenseJoueur2" type="button" class="defense"><img src="img/bouclier.png" alt="Icone de défense"
-            style="width: 50px;" /></button>
     </div>
 
   </div>

@@ -4,11 +4,4 @@ class Arme {
     this.degat = degat;
     this.elm = elm;
   }
-
-
-  decrireArme() {
-    const description = this.nom + " fait " + this.degat + " points de dégâts";
-    return description;
-  }
-
 }
