@@ -1,4 +1,4 @@
-Informations générales<br>
+Informations générales
 Ceci est le projet 6 de la formation d'openclassrooms Développeur d'application Front-End.
 
 Ce projet consistera à créer un jeu en ligne en JavaScript dans lequel 2 joueurs évoluent chacun leur tour pour s'affronter. Comme dans Highlander, il ne peut en rester qu'un !
@@ -33,19 +33,15 @@ Le joueur peut choisir d’attaquer ou de se défendre contre le prochain coup
 Lorsque le joueur se défend, il encaisse 50% de dégâts en moins qu’en temps normal
 
 Dès que les points de vie d’un joueur (initialement à 100) tombent à 0 , celui-ci a perdu. Un message s’affiche et la partie est terminée.
-<br>
+
+
+
 Démarrage
+
 Il suffit de télécharger le zip du code, d'extraire le dossier localement et de lancer le index.html
-
-
 
 Auteurs
 
-
-
 Tofanelli Enzo
-
-
-
 
 Licence Creative Commons, tout le monde pourra utiliser librement ce projet.

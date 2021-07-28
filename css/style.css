@@ -14,7 +14,7 @@ h1 {
   text-align: center;
   width: auto;
   height: auto;
-  font-size: 1.2em;
+  font-size: 2em;
   vertical-align: middle;
   z-index: 5;
   color: white;
@@ -137,6 +137,8 @@ h1 {
 }
 
 .joueurClass {
+  text-align: center;
+font-size: 1em;
   z-index: 4;
   width: 20%;
   height: 50%;
@@ -147,13 +149,7 @@ h1 {
   bottom: 5px;
 }
 
-.recapClass {
-  font-size: 0.8em;
-  color: black;
-  float: left;
-  z-index: 4;
-  position: relative;
-}
+
 
 
 .boutonClass {
