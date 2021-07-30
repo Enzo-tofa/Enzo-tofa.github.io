@@ -137,31 +137,40 @@ h1 {
 }
 
 .joueurClass {
+
   text-align: center;
 font-size: 1em;
   z-index: 4;
-  width: 20%;
-  height: 50%;
+  width: 200px;
+  height: 400px;
   margin: 10px;
   padding: 90px;
   vertical-align: middle;
-  position: absolute;
+  position: fixed;
   bottom: 5px;
 }
-
-
-
 
 .boutonClass {
   display: none;
   z-index: 4;
-  width: 10%;
-  height: 20%;
-  position: absolute;
+  width: 5%;
+  height: 10%;
+  position: relative;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .infoClass{
-  margin : 30px;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 1300px) {
+
+.joueurClass {
+font-size: 0.7em;
+width: 100px;
+height: 200px;
+}
 }

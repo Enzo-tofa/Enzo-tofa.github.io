@@ -3,10 +3,10 @@ function combat(perso1, perso2, perso_actuel) {
   this.perso2;
   this.perso_actuel;
   if (perso_actuel === perso1) {   // Si le perso qui se déplace est le perso 1 on affiche les ordres d'attaques et de défense du perso 1
-    document.getElementById("joueur1Boutons").style.display = "block";
+    document.getElementById("joueur1Boutons").style.display = "inline-flex";
   }
   else if (perso_actuel === perso2) {  // Si le perso qui se déplace est le perso 2 on affiche les ordres d'attaques et de défense du perso 2
-    document.getElementById("joueur2Boutons").style.display = "block";
+    document.getElementById("joueur2Boutons").style.display = "inline-flex";
   }
   function attaquer(attaquant, defenseur) {
     if (attaquant.posture === 1) {
@@ -48,13 +48,13 @@ function combat(perso1, perso2, perso_actuel) {
   };
   let attack1 = () => {                                                      // fonction attaque du perso1 nommé pour le removeEventListener
     document.getElementById("joueur1Boutons").style.display = "none";        // Cache les boutons du perso 1
-    document.getElementById("joueur2Boutons").style.display = "block";       // Affiche les boutons du perso 2
+    document.getElementById("joueur2Boutons").style.display = "flex";       // Affiche les boutons du perso 2
     attaquer(perso1, perso2);                                                // Le perso 1 attaque le perso 2
     perso1.updateInfo();                                                     // On met à jour les valeurs du perso 1
     perso2.updateInfo();                                                     // On met a jour els infos du perso 2
   }
   let attack2 = () => {
-    document.getElementById("joueur1Boutons").style.display = "block";
+    document.getElementById("joueur1Boutons").style.display = "flex";
     document.getElementById("joueur2Boutons").style.display = "none";
     attaquer(perso2, perso1);
     perso1.updateInfo();
@@ -62,13 +62,13 @@ function combat(perso1, perso2, perso_actuel) {
   }
   let defense1 = () => {
     document.getElementById("joueur1Boutons").style.display = "none";
-    document.getElementById("joueur2Boutons").style.display = "block";
+    document.getElementById("joueur2Boutons").style.display = "flex";
     defendre(perso1, perso2);
     perso1.updateInfo();
     perso2.updateInfo();
   }
   let defense2 = () => {
-    document.getElementById("joueur1Boutons").style.display = "block";
+    document.getElementById("joueur1Boutons").style.display = "flex";
     document.getElementById("joueur2Boutons").style.display = "none";
     defendre(perso2, perso1);
     perso1.updateInfo();
