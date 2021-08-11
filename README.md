@@ -1,5 +1,6 @@
 Informations générales
-Ceci est le projet 6 de la formation d'openclassrooms Développeur d'application Front-End.
+
+Ceci est le projet 6 de la formation d'openclassrooms Développeur d'application Front-End. Vous pouvez voir le projet sur : https://enzo-tofa.github.io/Jeu-tour-par-tour-js/
 
 Ce projet consistera à créer un jeu en ligne en JavaScript dans lequel 2 joueurs évoluent chacun leur tour pour s'affronter. Comme dans Highlander, il ne peut en rester qu'un !
 
